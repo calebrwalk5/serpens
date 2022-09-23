@@ -2,6 +2,10 @@
 
 fork of teddykoker's Image GPT, basilisk's cousin. See https://github.com/teddykoker/image-gpt.
 
+### Installation
+
+see ./scripts/ folder
+
 ### Training
 ```
 python src/run.py
