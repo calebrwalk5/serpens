@@ -1,3 +1,7 @@
+# Serpens
+
+Serpens is the relative of my project, basilisk
+
 # Image GPT
 
 PyTorch implementation of Image GPT, based on paper *Generative Pretraining from Pixels* [(Chen et al.)](https://cdn.openai.com/papers/Generative_Pretraining_from_Pixels_V2.pdf)
