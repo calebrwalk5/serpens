@@ -8,4 +8,4 @@ function gdrive_download () {
   rm -f /tmp/cookies.txt
 }
 
-gdrive_download 1Goci9y1zpY47zF7k0DUtiM1KiD15SgXG models/cifar10_gen.ckpt
+gdrive_download 1Goci9y1zpY47zF7k0DUtiM1KiD15SgXG ../models/cifar10_gen.ckpt
