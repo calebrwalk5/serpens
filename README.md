@@ -4,7 +4,7 @@ fork of teddykoker's Image GPT, basilisk's cousin. See https://github.com/teddyk
 
 ### Installation
 
-see ./scripts/ folder
+see ```./scripts/``` folder
 
 ### Training
 ```
