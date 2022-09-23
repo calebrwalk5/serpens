@@ -1,6 +1,6 @@
 # Serpens
 
-fork of teddykoker's Image GPT, basilisk's cousin. See https://github.com/teddykoker/image-gpt
+fork of teddykoker's Image GPT, basilisk's cousin. See https://github.com/teddykoker/image-gpt.
 
 ### Training
 ```
