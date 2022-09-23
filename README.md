@@ -26,27 +26,3 @@ input; last column is original image*
 
 *iGPT-S pretrained on CIFAR10. Completions are fairly poor as the model was
 only trained on CIFAR10, not all of ImageNet.*
-
-
-## WIP
- - [ ] Batched *k*-means on GPU for quantization of larger datasets (currently using
-     `sklearn.cluster.MiniBatchKMeans`.)
- - [ ] BERT-style pretraining (currently only generative is supported.)
- - [ ] Load pretrained models from OpenAI.
- - [ ] Reproduce at least iGPT-S results.
-
-According to their [blog post](https://openai.com/blog/image-gpt/), the largest
-model, iGPT-L (1.4 M parameters), was trained for 2500 V100-days. By greatly reducing the number of
-attention head, number of layers, and input size (which effects model size
-quadratically), we can train our own model (26 K parameters) on
-[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) on a single
-NVIDIA 2070 in less than 2 hours.
-
-- [Image GPT](#image-gpt)
-  * [Usage](#usage)
-    + [Pre-trained Models](#pre-trained-models)
-    + [Compute Centroids](#compute-centroids)
-    + [Training](#training)
-      - [Generative Pre-training](#generative-pre-training)
-      - [Classification Fine-tuning](#classification-fine-tuning)
-    + [Sampling](#sampling)
